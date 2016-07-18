@@ -1,1 +1,2 @@
-module.exports = require('joi').extend(require('./lib'))
+const Joi = require('joi')
+module.exports = Joi.extend(require('./lib'))

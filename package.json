@@ -1,6 +1,6 @@
 {
   "name": "joi-link",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A extension for validating and generating links with joi",
   "main": "index.js",
   "scripts": {
