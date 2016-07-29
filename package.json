@@ -4,6 +4,7 @@
   "description": "A extension for validating and generating links with joi",
   "main": "index.js",
   "scripts": {
+    "codeclimate": "lab -c -r lcov | codeclimate-test-reporter",
     "test": "lab -v -D -C -c"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "code": "^3.0.1",
+    "codeclimate-test-reporter": "^0.3.3",
     "lab": "^10.9.0"
   }
 }
